@@ -4,7 +4,10 @@ In this first we are using ***logistic regression*** method where we get a 90% a
 then we use ***random forest classifier*** where with the default parameters value we get a accuracy of 93%
 then finally we use ***Adaboost classifier*** where with the default parameters value we get a accuracy of 96%
 
-Note:If we change the parameters we can able to get good results in all this method but the key idea is to find the best optimal algorithms, So that why we stick with the default parameters.So feel free to check the official documentation and change the parameters in order to get a better results!!
+Note:If we change the parameters we can able to get good results in all this method but the key idea is to find the best optimal algorithms, So that why we stick with the default parameters.So feel free to check the official documentation [logistic regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html),
+[Random forest classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html),
+[Adaboost classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html), 
+ and change the parameters in order to get a better results!!
 
 
 To run the code follow the below steps:
