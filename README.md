@@ -30,15 +30,15 @@ pip install seaborn
 
 2.Clone this repository .
 ```
-https://github.com/karthikeyanthanigai/Computer-hardware-regression-problem-.git
+https://github.com/karthikeyanthanigai/Iris-classification-problem.git
 ```
 3.Open command line and set the directory to the cloned repository.
 ```
-cd Computer-hardware-regression-problem-
+cd Iris-classification-problem
 ```
 4.Enter the command.
 ```
-python forest.py
+python classifier.py
 ```
 
 if you got any error in install the packages then refer [Stackoverflow](https://www.stackoverflow.com).
