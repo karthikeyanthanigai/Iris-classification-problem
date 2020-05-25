@@ -1,4 +1,3 @@
-
 #<-------------logistic regression------------->
 #Import the Libraries
 import numpy as np
@@ -49,7 +48,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2,random
 
 #Random forest classifier
 from sklearn.ensemble import RandomForestClassifier
-classifier1 = RandomForestClassifier(n_estimators=10,random_state=0)
+classifier1 = RandomForestClassifier(random_state=0)
 classifier1.fit(X_train, y_train)
 
 #predict our test set
@@ -79,7 +78,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2,random
 
 #Adaboost classifier
 from sklearn.ensemble import AdaBoostClassifier
-classifier2 = AdaBoostClassifier(n_estimators=10,random_state=0)
+classifier2 = AdaBoostClassifier(random_state=0)
 classifier2.fit(X_train, y_train)
 
 #predict our test set
