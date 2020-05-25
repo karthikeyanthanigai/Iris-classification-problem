@@ -13,11 +13,11 @@ y = Dataset.iloc[:, -1].values
 
 #Splitting the data into train and test
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2,random_state=32)
 
 #Logistic Regression model. 
 from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(max_iter=1000,random_state=0)
+classifier = LogisticRegression(random_state=0)
 classifier.fit(X_train, y_train)
 
 #predict our test set
