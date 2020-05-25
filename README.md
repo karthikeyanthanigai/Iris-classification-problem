@@ -1,10 +1,10 @@
 # Iris-classification-problem
 In this repository we will see what is this Iris (classification)problem and try to solve this problem using different classification algorithms.
-In this first we are using ***logistic regression*** method where we get a 90% accuracy.
-then we use ***random forest classifier*** where we get a accuracy of 93%
-then finally we use ***Adaboost classifier*** where we get a accuracy of 96%
+In this first we are using ***logistic regression*** method where we get a 93%(test accuracy) with the default parameters.
+then we use ***Random forest classifier*** where we get a accuracy of 93% with the default parameters,
+then finally we use ***Adaboost classifier*** where  we get a accuracy of 96% with the default parameters.
 
-Note:If we change the parameters we can able to get good results in all this method but the key idea is to find the best optimal algorithms, So feel free to check the official documentation [logistic regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html),
+Note:If we change the parameters we can able to get good results in all this method but the key idea is to find the best optimal algorithms,So only we stick with the default parameters, So feel free to check the official documentation [logistic regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html),
 [Random forest classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html),
 [Adaboost classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html), 
  and change the parameters in order to get a better results!!
